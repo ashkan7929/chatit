@@ -4,7 +4,9 @@ import Sidebar from './Sidebar'
 import Chat from './Chat'
 
 export default class Main extends Component {
+
     render() {
+
         return (
             <div className='layout'>
                 <Navigation />
@@ -12,5 +14,7 @@ export default class Main extends Component {
                 <Chat />
             </div>
         )
+
     }
+
 }
