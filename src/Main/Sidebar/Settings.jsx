@@ -17,7 +17,7 @@ export default class Settings extends Component {
                 <h4>Settings</h4>
                 <ul id="preferences">
                     <li>
-                        <a href="#" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#account" aria-controls="account">
+                        <a href="#/" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#account" aria-controls="account">
                             <div className="title">
                                 <h5>Account</h5>
                                 <p>Update your profile details</p>
@@ -60,7 +60,7 @@ export default class Settings extends Component {
                         </div>
                     </li>
                     <li>
-                        <a href="#" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#privacy" aria-controls="privacy">
+                        <a href="#/" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#privacy" aria-controls="privacy">
                             <div className="title">
                                 <h5>Privacy & Safety</h5>
                                 <p>Control your privacy settings</p>
@@ -75,7 +75,7 @@ export default class Settings extends Component {
                                         <div className="headline">
                                             <h5>Safe Mode</h5>
                                             <label className="switch">
-                                                <input type="checkbox" checked />
+                                                <input type="checkbox" defaultChecked />
                                                 <span className="slider round"></span>
                                             </label>
                                         </div>
@@ -85,7 +85,7 @@ export default class Settings extends Component {
                                         <div className="headline">
                                             <h5>History</h5>
                                             <label className="switch">
-                                                <input type="checkbox" checked />
+                                                <input type="checkbox" defaultChecked />
                                                 <span className="slider round"></span>
                                             </label>
                                         </div>
@@ -116,7 +116,7 @@ export default class Settings extends Component {
                         </div>
                     </li>
                     <li>
-                        <a href="#" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#alerts" aria-controls="alerts">
+                        <a href="#/" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#alerts" aria-controls="alerts">
                             <div className="title">
                                 <h5>Notifications</h5>
                                 <p>Turn notifications on or off</p>
@@ -131,7 +131,7 @@ export default class Settings extends Component {
                                         <div className="headline">
                                             <h5>Pop-up</h5>
                                             <label className="switch">
-                                                <input type="checkbox" checked />
+                                                <input type="checkbox" defaultChecked />
                                                 <span className="slider round"></span>
                                             </label>
                                         </div>
@@ -151,7 +151,7 @@ export default class Settings extends Component {
                                         <div className="headline">
                                             <h5>Sound</h5>
                                             <label className="switch">
-                                                <input type="checkbox" checked />
+                                                <input type="checkbox" defaultChecked />
                                                 <span className="slider round"></span>
                                             </label>
                                         </div>
@@ -172,7 +172,7 @@ export default class Settings extends Component {
                         </div>
                     </li>
                     <li>
-                        <a href="#" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#integrations" aria-controls="integrations">
+                        <a href="#/" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#integrations" aria-controls="integrations">
                             <div className="title">
                                 <h5>Integrations</h5>
                                 <p>Sync your social accounts</p>
@@ -189,7 +189,7 @@ export default class Settings extends Component {
                                             <div className="headline">
                                                 <h5>Google</h5>
                                                 <label className="switch">
-                                                    <input type="checkbox" checked />
+                                                    <input type="checkbox" defaultChecked />
                                                     <span className="slider round"></span>
                                                 </label>
                                             </div>
@@ -202,7 +202,7 @@ export default class Settings extends Component {
                                             <div className="headline">
                                                 <h5>Facebook</h5>
                                                 <label className="switch">
-                                                    <input type="checkbox" checked />
+                                                    <input type="checkbox" defaultChecked />
                                                     <span className="slider round"></span>
                                                 </label>
                                             </div>
@@ -240,7 +240,7 @@ export default class Settings extends Component {
                         </div>
                     </li>
                     <li>
-                        <a href="#" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#appearance" aria-controls="appearance">
+                        <a href="#/" className="headline" data-toggle="collapse" aria-expanded="false" data-target="#appearance" aria-controls="appearance">
                             <div className="title">
                                 <h5>Appearance</h5>
                                 <p>Customize the look of Swipe</p>

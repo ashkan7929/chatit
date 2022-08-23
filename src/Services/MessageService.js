@@ -5,6 +5,7 @@ import ClientService from './ClientService'
 export default class MessageService extends Component {
 
     constructor() {
+        super();
         this.client = new ClientService;
         this.peer = new Peer(this.client.getClientID(), {
             port: 9000,

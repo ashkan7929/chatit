@@ -33,9 +33,9 @@ export default class ChatContent extends Component {
                                 <div className="message">
                                     <div className="bubble">
                                         <div className="attachment">
-                                            <a href="#" className="round"><i data-eva="file-text"></i></a>
+                                            <a href="#/" className="round"><i data-eva="file-text"></i></a>
                                             <div className="meta">
-                                                <a href="#"><h5>build-plugins.js</h5></a>
+                                                <a href="#/"><h5>build-plugins.js</h5></a>
                                                 <span>3kb</span>
                                             </div>
                                         </div>

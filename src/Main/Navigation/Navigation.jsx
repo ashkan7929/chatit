@@ -5,7 +5,7 @@ export default class Navigation extends Component {
         return (
             <nav className="navigation">
                 <div className="container">
-                    <a href="#" className="logo" rel="home"></a>
+                    <a href="#/" className="logo" rel="home"></a>
                     <ul className="nav" role="tablist">
                         <li>
                             <a href="#conversations"

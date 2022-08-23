@@ -15,7 +15,7 @@ export default class Friends extends Component {
                     <hr />
                     <ul className="users">
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status online">
                                     <img src="assets/img/avatars/avatar-male-1.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -28,7 +28,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status offline">
                                     <img src="assets/img/avatars/avatar-male-2.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -41,7 +41,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status online">
                                     <img src="assets/img/avatars/avatar-male-3.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -54,7 +54,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status offline">
                                     <img src="assets/img/avatars/avatar-male-4.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -67,7 +67,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status offline">
                                     <img src="assets/img/avatars/avatar-male-5.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -80,7 +80,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status online">
                                     <img src="assets/img/avatars/avatar-male-6.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -93,7 +93,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status offline">
                                     <img src="assets/img/avatars/avatar-female-1.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -106,7 +106,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status offline">
                                     <img src="assets/img/avatars/avatar-female-2.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
@@ -119,7 +119,7 @@ export default class Friends extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#/">
                                 <div className="status online">
                                     <img src="assets/img/avatars/avatar-female-3.jpg" alt="avatar" />
                                     <i data-eva="radio-button-on"></i>
