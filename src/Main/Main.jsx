@@ -2,8 +2,15 @@ import React, { Component } from 'react'
 import Navigation from './Navigation/Navigation'
 import Sidebar from './Sidebar'
 import Chat from './Chat'
-
+import LocationService from '../Services/LocationService'
+import MessageService from '../Services/MessageService'
 export default class Main extends Component {
+
+    constructor() {
+        super();
+        this.locationService = new LocationService();
+        this.messageService = new MessageService();
+    }
 
     render() {
 
